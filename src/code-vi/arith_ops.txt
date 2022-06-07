@@ -1,0 +1,6 @@
+  val add = a + b // phép cộng
+  val sub = a - b // phép trừ
+  val neg = -a    // số âm
+  val mul = a * b // phép nhân
+  val div = a / b // phép chia
+  val mod = a % b // phép chia modulo

@@ -1,0 +1,11 @@
+class Decode() extends Module {
+  val io = IO(new Bundle {
+    val din = Input(UInt(8.W))
+    val dout = Output(new DecodeOut)
+  })
+
+  val f = WireDefault(nop)
+  val imm = WireDefault(false.B)
+  val ena = WireDefault(false.B)
+
+  io.dout.exit := false.B

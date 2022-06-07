@@ -1,0 +1,49 @@
+circuit Pwm :
+  module Pwm :
+    input clock : Clock
+    input reset : UInt<1>
+    output io_led : UInt<4>
+
+    reg REG : UInt<4>, clock with :
+      reset => (UInt<1>("h0"), REG) @[Pwm.scala 11:25]
+    node _T = eq(REG, UInt<4>("h9")) @[Pwm.scala 12:26]
+    node _T_1 = add(REG, UInt<1>("h1")) @[Pwm.scala 12:58]
+    node _T_2 = tail(_T_1, 1) @[Pwm.scala 12:58]
+    node _T_3 = mux(_T, UInt<1>("h0"), _T_2) @[Pwm.scala 12:18]
+    node dout = gt(UInt<2>("h3"), REG) @[Pwm.scala 13:9]
+    reg modulationReg : UInt<32>, clock with :
+      reset => (UInt<1>("h0"), modulationReg) @[Pwm.scala 24:30]
+    reg upReg : UInt<1>, clock with :
+      reset => (UInt<1>("h0"), upReg) @[Pwm.scala 26:22]
+    node _T_4 = lt(modulationReg, UInt<27>("h5f5e100")) @[Pwm.scala 28:23]
+    node _T_5 = and(_T_4, upReg) @[Pwm.scala 28:32]
+    node _T_6 = add(modulationReg, UInt<1>("h1")) @[Pwm.scala 29:36]
+    node _T_7 = tail(_T_6, 1) @[Pwm.scala 29:36]
+    node _T_8 = eq(modulationReg, UInt<27>("h5f5e100")) @[Pwm.scala 30:30]
+    node _T_9 = and(_T_8, upReg) @[Pwm.scala 30:41]
+    node _T_10 = gt(modulationReg, UInt<1>("h0")) @[Pwm.scala 32:30]
+    node _T_11 = eq(upReg, UInt<1>("h0")) @[Pwm.scala 32:39]
+    node _T_12 = and(_T_10, _T_11) @[Pwm.scala 32:36]
+    node _T_13 = sub(modulationReg, UInt<1>("h1")) @[Pwm.scala 33:36]
+    node _T_14 = tail(_T_13, 1) @[Pwm.scala 33:36]
+    node _GEN_0 = mux(_T_12, _T_14, modulationReg) @[Pwm.scala 32:47 Pwm.scala 33:19 Pwm.scala 24:30]
+    node _GEN_1 = mux(_T_12, upReg, UInt<1>("h1")) @[Pwm.scala 32:47 Pwm.scala 26:22 Pwm.scala 35:11]
+    node _GEN_2 = mux(_T_9, UInt<1>("h0"), _GEN_1) @[Pwm.scala 30:51 Pwm.scala 31:11]
+    node _GEN_3 = mux(_T_9, modulationReg, _GEN_0) @[Pwm.scala 30:51 Pwm.scala 24:30]
+    node _GEN_4 = mux(_T_5, _T_7, _GEN_3) @[Pwm.scala 28:42 Pwm.scala 29:19]
+    node _GEN_5 = mux(_T_5, upReg, _GEN_2) @[Pwm.scala 28:42 Pwm.scala 26:22]
+    node _T_15 = shr(modulationReg, 10) @[Pwm.scala 39:36]
+    reg REG_1 : UInt<17>, clock with :
+      reset => (UInt<1>("h0"), REG_1) @[Pwm.scala 11:25]
+    node _T_16 = eq(REG_1, UInt<17>("h1869f")) @[Pwm.scala 12:26]
+    node _T_17 = add(REG_1, UInt<1>("h1")) @[Pwm.scala 12:58]
+    node _T_18 = tail(_T_17, 1) @[Pwm.scala 12:58]
+    node _T_19 = mux(_T_16, UInt<1>("h0"), _T_18) @[Pwm.scala 12:18]
+    node sig = gt(_T_15, REG_1) @[Pwm.scala 13:9]
+    node hi = cat(UInt<1>("h0"), sig) @[Cat.scala 30:58]
+    node _T_20 = cat(hi, dout) @[Cat.scala 30:58]
+    io_led <= _T_20 @[Pwm.scala 43:10]
+    REG <= mux(reset, UInt<4>("h0"), _T_3) @[Pwm.scala 11:25 Pwm.scala 11:25 Pwm.scala 12:12]
+    modulationReg <= mux(reset, UInt<32>("h0"), _GEN_4) @[Pwm.scala 24:30 Pwm.scala 24:30]
+    upReg <= mux(reset, UInt<1>("h1"), _GEN_5) @[Pwm.scala 26:22 Pwm.scala 26:22]
+    REG_1 <= mux(reset, UInt<17>("h0"), _T_19) @[Pwm.scala 11:25 Pwm.scala 11:25 Pwm.scala 12:12]

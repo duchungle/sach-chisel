@@ -1,0 +1,3 @@
+  // Chúng ta có thể thay đổi giá trị của biến var
+  var x = 2
+  x = 3

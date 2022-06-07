@@ -1,0 +1,240 @@
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ShiftRegisterSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mShiftRegisterSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mShiftRegister[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mShiftRegisterParaOut[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mShiftRegisterParaLoad[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TimerSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mTimerSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mTimer[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(BubbleFifoSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mBubbleFifoSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mBubbleFifo[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(FunctionalSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mFunctionalSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mFunctionalAdd[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PopCountSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mPopCountSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mPopCount[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(CombinationalSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mCombinationalSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mCombinational[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mCombWhen[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mCombOther[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mCombElseWhen[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mCombWireDefault[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(FunctionalMinTester, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mFunctionalMinTester:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mScalaFunctionalMin[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mFunctionalMin[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mFunctionalMin random tests[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(MemorySpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mMemorySpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mMemory[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mMemory with forwarding[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ParamRouterSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mParamRouterSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mParamRouter[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(BundleVecSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mBundleVecSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mBundleVec[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ParamFuncSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mParamFuncSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mParamFunc[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SequentialSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mSequentialSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mSequential[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mCounter[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mTick[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DrawingSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mDrawingSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mDrawAcc[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mDrawMux6[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(CounterSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mCounterSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mWhenCounter 4[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mWhenCounter 7[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mMuxCounter 5[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mDownCounter 7[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mFunctionCounter 8[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mNerdCounter 13[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TickerSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mTickerSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mUpTicker 5[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mDownTicker 7[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mNerdTicker 11[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PwmSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mPwmSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mPWm[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(WaveformCounterSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mWaveformCounterSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mWaveformCounter[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(BcdTableSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mBcdTableSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mBcdTable[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ExampleSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mExampleSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mIntegers[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should add[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SimplePrintfSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mSimplePrintfSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mTesterPrinter[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(FlasherSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mFlasherSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mFlasher[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mFlasher2[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(WaveformSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mWaveformSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mWaveform[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PrintfCntSpec2, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mPrintfCntSpec2:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mPrintf in ChiselTest[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(FileReaderSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mFileReaderSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mFileReader[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(Snippets, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mSnippets:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mCombinational test with Treadle[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mCombinational test with Verilator[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m- should pass *** FAILED ***[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.io.IOException: Cannot run program "verilator": error=2, No such file or directory[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.sys.process.ProcessBuilderImpl$Simple.run(ProcessBuilderImpl.scala:75)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.sys.process.ProcessBuilderImpl$AbstractBuilder.$bang(ProcessBuilderImpl.scala:119)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.sys.process.ProcessBuilderImpl$AbstractBuilder.slurp(ProcessBuilderImpl.scala:135)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.sys.process.ProcessBuilderImpl$AbstractBuilder.$bang$bang(ProcessBuilderImpl.scala:108)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.legacy.backends.verilator.VerilatorCppHarnessGenerator$.codeGen(VerilatorCppHarnessGenerator.scala:46)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.legacy.backends.verilator.VerilatorExecutive$.start(VerilatorExecutive.scala:70)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.defaults.package$.createDefaultTester(defaults.scala:24)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.ChiselScalatestTester$TestBuilder.apply(ChiselScalatestTester.scala:33)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at Snippets.$anonfun$new$5(Snippets.scala:31)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  Cause: java.io.IOException: error=2, No such file or directory[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.lang.UNIXProcess.forkAndExec(Native Method)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.lang.ProcessImpl.start(ProcessImpl.java:134)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.sys.process.ProcessBuilderImpl$Simple.run(ProcessBuilderImpl.scala:75)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.sys.process.ProcessBuilderImpl$AbstractBuilder.$bang(ProcessBuilderImpl.scala:119)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.sys.process.ProcessBuilderImpl$AbstractBuilder.slurp(ProcessBuilderImpl.scala:135)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.sys.process.ProcessBuilderImpl$AbstractBuilder.$bang$bang(ProcessBuilderImpl.scala:108)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.legacy.backends.verilator.VerilatorCppHarnessGenerator$.codeGen(VerilatorCppHarnessGenerator.scala:46)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  at chiseltest.legacy.backends.verilator.VerilatorExecutive$.start(VerilatorExecutive.scala:70)[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(fifo.FifoSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mFifoSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mBubbleFifo[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mDoubleBufferFifo[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(SimpleSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mSimpleSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mTester[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(FsmSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mFsmSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mFsm[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mRisingFsm[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mRisingMooreFsm[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(PrintfCntSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mPrintfCntSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mPrintf[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should print[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(DebounceSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mDebounceSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mDebounce test[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mDebounceFunc test[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(ComponentSpec, org.scalatest.tools.Framework$$anon$1@6e0abdaa, false, [SuiteSelector])[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mComponentSpec:[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32mComponentFn[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[32m- should pass[0m[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mSummary for ScalaCheck not available.[0m[0J
+[0m[[0m[0minfo[0m] [0m[0mScalaTest[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 49 seconds, 28 milliseconds.[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 56[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 31, aborted 0[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 55, failed 1, canceled 0, ignored 0, pending 0[0m[0m[0J
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m[0J
+[0m[[0m[31merror[0m] [0m[0mFailed: Total 56, Failed 1, Errors 0, Passed 55[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	DrawingSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	ShiftRegisterSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	SimpleSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	TickerSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	CombinationalSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	DebounceSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	BcdTableSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	FlasherSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	PrintfCntSpec2[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	CounterSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	PwmSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	BundleVecSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	SimplePrintfSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	TimerSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	ComponentSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	PrintfCntSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	WaveformSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	ParamFuncSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	WaveformCounterSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	FileReaderSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	FunctionalMinTester[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	SequentialSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	PopCountSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	FunctionalSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	ParamRouterSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	ExampleSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	MemorySpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	fifo.FifoSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	BubbleFifoSpec[0m[0J
+[0m[[0m[0mdebug[0m] [0m[0m	FsmSpec[0m[0J
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m[0J
+[0m[[0m[31merror[0m] [0m[0m	Snippets[0m[0J
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m[0J

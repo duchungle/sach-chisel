@@ -1,0 +1,31 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/FunctionalSpec2052041798/FunctionalAdd.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~FunctionalAdd|FunctionalAdd>io_res",
+    "sources":[
+      "~FunctionalAdd|FunctionalAdd>io_in_4",
+      "~FunctionalAdd|FunctionalAdd>io_in_0",
+      "~FunctionalAdd|FunctionalAdd>io_in_1",
+      "~FunctionalAdd|FunctionalAdd>io_in_2",
+      "~FunctionalAdd|FunctionalAdd>io_in_3"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/FunctionalSpec2052041798"
+  }
+]

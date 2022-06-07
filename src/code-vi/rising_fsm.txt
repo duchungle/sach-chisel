@@ -1,0 +1,33 @@
+import chisel3._
+import chisel3.util._
+
+class RisingFsm extends Module {
+  val io = IO(new Bundle{
+    val din = Input(Bool())
+    val risingEdge = Output(Bool())
+  })
+
+  // Hai trạng thái
+  val zero :: one :: Nil = Enum(2)
+
+  // Thanh ghi trạng thái
+  val stateReg = RegInit(zero)
+
+  // Giá trị mặc định cho ngõ ra
+  io.risingEdge := false.B
+
+  // Trạng thái kế tiếp và logic ngõ ra
+  switch (stateReg) {
+    is(zero) {
+      when(io.din) {
+        stateReg := one
+        io.risingEdge := true.B
+      }
+    }
+    is(one) {
+      when(!io.din) {
+        stateReg := zero
+      }
+    }
+  }
+}

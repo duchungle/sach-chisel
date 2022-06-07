@@ -1,0 +1,11 @@
+\frametitle{Summary}
+\begin{itemize}
+\item Use an FSMD for the vending machine and simple processors
+\item We need to connect to the world
+\item FPGA (or any chip) is only part of a system
+\item Bus interface to external devices (e.g., memory)
+\item Serial interface to connect systems
+\begin{itemize}
+\item E.g., your Basys3 board to the laptop
+\end{itemize}
+\end{itemize}

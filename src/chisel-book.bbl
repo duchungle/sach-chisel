@@ -1,0 +1,98 @@
+\begin{thebibliography}{10}
+
+\bibitem{rocket:techrep}
+Krste Asanović, Rimas Avizienis, Jonathan Bachrach, Scott Beamer, David
+  Biancolin, Christopher Celio, Henry Cook, Daniel Dabbelt, John Hauser, Adam
+  Izraelevitz, Sagar Karandikar, Ben Keller, Donggyu Kim, John Koenig, Yunsup
+  Lee, Eric Love, Martin Maas, Albert Magyar, Howard Mao, Miquel Moreto, Albert
+  Ou, David~A. Patterson, Brian Richards, Colin Schmidt, Stephen Twigg, Huy Vo,
+  and Andrew Waterman.
+\newblock The rocket chip generator.
+\newblock Technical Report UCB/EECS-2016-17, EECS Department, University of
+  California, Berkeley, Apr 2016.
+
+\bibitem{chisel:dac2012}
+Jonathan Bachrach, Huy Vo, Brian Richards, Yunsup Lee, Andrew Waterman, Rimas
+  Avizienis, John Wawrzynek, and Krste Asanovic.
+\newblock Chisel: constructing hardware in a {Scala} embedded language.
+\newblock In Patrick Groeneveld, Donatella Sciuto, and Soha Hassoun, editors,
+  {\em The 49th Annual Design Automation Conference (DAC 2012)}, pages
+  1216--1225, San Francisco, {CA}, {USA}, June 2012. ACM.
+
+\bibitem{dally:vhdl:2016}
+William~J. Dally, R.~Curtis Harting, and Tor~M. Aamodt.
+\newblock {\em Digital design using VHDL: A systems approach}.
+\newblock Cambridge University Press, 2016.
+
+\bibitem{RoCC:2015}
+Schuyler Eldridge, Amos Waterland, Margo Seltzer, and Jonathan Appavooand~Ajay
+  Joshi.
+\newblock Towards general-purpose neural network computing.
+\newblock In {\em 2015 International Conference on Parallel Architecture and
+  Compilation (PACT)}, pages 99--112, Oct 2015.
+
+\bibitem{OpenSoC:ispass2016}
+Farzaf Fatollahi-Fard, David Donofrio, George Michelogiannakis, and John Shalf.
+\newblock Opensoc fabric: On-chip network generator.
+\newblock In {\em 2016 IEEE International Symposium on Performance Analysis of
+  Systems and Software (ISPASS)}, pages 194--203, April 2016.
+
+\bibitem{lipsi:arcs2018}
+Martin Schoeberl.
+\newblock Lipsi: Probably the smallest processor in the world.
+\newblock In {\em Architecture of Computing Systems -- ARCS 2018}, pages
+  18--30. Springer International Publishing, 2018.
+
+\bibitem{t-crest:memnoc}
+Martin Schoeberl, David~VH Chong, Wolfgang Puffitsch, and Jens Spars{\o}.
+\newblock A time-predictable memory network-on-chip.
+\newblock In {\em Proceedings of the 14th International Workshop on Worst-Case
+  Execution Time Analysis (WCET 2014)}, pages 53--62, Madrid, Spain, July 2014.
+
+\bibitem{leros:arcs2019}
+Martin Schoeberl and {Morten Borup} Petersen.
+\newblock Leros: The return of the accumulator machine.
+\newblock In Martin Schoeberl, Thilo Pionteck, Sascha Uhrig, J{\"u}rgen Brehm,
+  and Christian Hochberger, editors, {\em Architecture of Computing Systems -
+  ARCS 2019 - 32nd International Conference, Proceedings}, pages 115--127.
+  Springer, 1 2019.
+
+\bibitem{s4nocni:arcs2019}
+Martin Schoeberl, Luca Pezzarossa, and Jens Spars{\o}.
+\newblock A minimal network interface for a simple network-on-chip.
+\newblock In Martin Schoeberl, Thilo Pionteck, Sascha Uhrig, J{\"u}rgen Brehm,
+  and Christian Hochberger, editors, {\em Architecture of Computing Systems -
+  ARCS 2019}, pages 295--307. Springer, 1 2019.
+
+\bibitem{patmos:rts2018}
+Martin Schoeberl, Wolfgang Puffitsch, Stefan Hepp, Benedikt Huber, and Daniel
+  Prokesch.
+\newblock Patmos: A time-predictable microprocessor.
+\newblock {\em Real-Time Systems}, 54(2):389--423, Apr 2018.
+
+\bibitem{t-crest:ownspm}
+Martin Schoeberl, T{\'o}rur~Biskopst{\o} Str{\o}m, Oktay Baris, and Jens
+  Spars\o{}.
+\newblock Scratchpad memories with ownership.
+\newblock In {\em 2019 Design, Automation and Test in Europe Conference
+  Exhibition (DATE)}, 2019.
+
+\bibitem{Scala}
+Bill Venners, Lex Spoon, and Martin Odersky.
+\newblock {\em Programming in Scala, 3rd Edition}.
+\newblock Artima Inc, 2016.
+
+\bibitem{risc-v}
+Andrew Waterman, Yunsup Lee, David~A. Patterson, and Krste Asanovic.
+\newblock The risc-v instruction set manual, volume i: Base user-level isa.
+\newblock Technical Report UCB/EECS-2011-62, EECS Department, University of
+  California, Berkeley, May 2011.
+
+\bibitem{Zimmer:EECS-2015-181}
+Michael Zimmer.
+\newblock {\em Predictable Processors for Mixed-Criticality Systems and
+  Precision-Timed I/O}.
+\newblock PhD thesis, EECS Department, University of California, Berkeley, Aug
+  2015.
+
+\end{thebibliography}

@@ -1,0 +1,10 @@
+  val btnDebReg = Reg(Bool())
+
+  val cntReg = RegInit(0.U(32.W))
+  val tick = cntReg === (FAC-1).U
+
+  cntReg := cntReg + 1.U
+  when (tick) {
+    cntReg := 0.U
+    btnDebReg := btnSync
+  }

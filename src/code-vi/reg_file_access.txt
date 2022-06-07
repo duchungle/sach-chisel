@@ -1,0 +1,2 @@
+  registerFile(idx) := dIn
+  val dOut = registerFile(idx)

@@ -1,0 +1,3 @@
+  "hff".U        // biểu diễn hệ thập lục phân của 255
+  "o377".U       // biểu diễn hệ bát phân của 255
+  "b1111_1111".U // biểu diễn hệ nhị phân của 255

@@ -1,0 +1,38 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/CombinationalSpec2110113130/Combinational.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Combinational|Combinational>io_out2",
+    "sources":[
+      "~Combinational|Combinational>io_c",
+      "~Combinational|Combinational>io_a",
+      "~Combinational|Combinational>io_b"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~Combinational|Combinational>io_out",
+    "sources":[
+      "~Combinational|Combinational>io_c",
+      "~Combinational|Combinational>io_a",
+      "~Combinational|Combinational>io_b"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/CombinationalSpec2110113130"
+  }
+]

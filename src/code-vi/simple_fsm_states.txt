@@ -1,0 +1,1 @@
+  val green :: orange :: red :: Nil = Enum(3)

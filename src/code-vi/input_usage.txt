@@ -1,0 +1,8 @@
+  val risingEdge = btnClean & !RegNext(btnClean)
+
+  // Sử dụng cạnh lên của nút chống dội
+  // và lọc để đếm lên
+  val reg = RegInit(0.U(8.W))
+  when (risingEdge) {
+    reg := reg + 1.U
+  }

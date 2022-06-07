@@ -1,0 +1,44 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/BubbleFifoSpec138451617/BubbleFifo.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~BubbleFifo|FifoRegister",
+    "duplicate":"~BubbleFifo|BubbleFifo/FifoRegister:FifoRegister",
+    "index":0.0
+  },
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~BubbleFifo|FifoRegister_1",
+    "duplicate":"~BubbleFifo|BubbleFifo/FifoRegister_1:FifoRegister",
+    "index":0.25
+  },
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~BubbleFifo|FifoRegister_2",
+    "duplicate":"~BubbleFifo|BubbleFifo/FifoRegister_2:FifoRegister",
+    "index":0.5
+  },
+  {
+    "class":"firrtl.transforms.DedupedResult",
+    "original":"~BubbleFifo|FifoRegister_3",
+    "duplicate":"~BubbleFifo|BubbleFifo/FifoRegister_3:FifoRegister",
+    "index":0.75
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/BubbleFifoSpec138451617"
+  }
+]

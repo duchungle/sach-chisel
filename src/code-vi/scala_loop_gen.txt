@@ -1,0 +1,7 @@
+  val shiftReg = RegInit(0.U(8.W))
+
+  shiftReg(0) := inVal
+
+  for (i <- 1 until 8) {
+    shiftReg(i) := shiftReg(i-1)
+  }

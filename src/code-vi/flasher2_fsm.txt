@@ -1,0 +1,34 @@
+  val off :: flash :: space :: Nil = Enum(3)
+  val stateReg = RegInit(off)
+
+  val light = WireDefault(false.B) // FSM output
+
+  // Kết nối bộ định thời
+  val timerLoad = WireDefault(false.B) // khởi động bộ định thời với giá trị nạp
+  val timerSelect = WireDefault(true.B) // chọn 6 hoặc 4 chu kỳ
+  val timerDone = Wire(Bool())
+  // Kết nối mạch đếm
+  val cntLoad = WireDefault(false.B)
+  val cntDecr = WireDefault(false.B)
+  val cntDone = Wire(Bool())
+
+  timerLoad := timerDone
+
+  switch(stateReg) {
+    is(off) {
+      timerLoad := true.B
+      timerSelect := true.B
+      cntLoad := true.B
+      when (start) { stateReg := flash }
+    }
+    is (flash) {
+      timerSelect := false.B
+      light := true.B
+      when (timerDone & !cntDone) { stateReg := space }
+      when (timerDone & cntDone) { stateReg := off }
+    }
+    is (space) {
+      cntDecr := timerDone
+      when (timerDone) { stateReg := flash }
+    }
+  }

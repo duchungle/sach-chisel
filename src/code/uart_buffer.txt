@@ -1,0 +1,25 @@
+class Buffer extends Module {
+  val io = IO(new Bundle {
+    val in = new Channel()
+    val out = Flipped(new Channel())
+  })
+
+  val empty :: full :: Nil = Enum(2)
+  val stateReg = RegInit(empty)
+  val dataReg = RegInit(0.U(8.W))
+
+  io.in.ready := stateReg === empty
+  io.out.valid := stateReg === full
+
+  when(stateReg === empty) {
+    when(io.in.valid) {
+      dataReg := io.in.data
+      stateReg := full
+    }
+  }.otherwise { // full
+    when(io.out.ready) {
+      stateReg := empty
+    }
+  }
+  io.out.data := dataReg
+}

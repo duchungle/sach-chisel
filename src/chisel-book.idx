@@ -1,0 +1,108 @@
+\indexentry{Chisel!Examples|hyperpage}{6}
+\indexentry{Integer!unsigned|hyperpage}{9}
+\indexentry{Integer!signed|hyperpage}{9}
+\indexentry{Integer!width|hyperpage}{9}
+\indexentry{Integer!constant|hyperpage}{10}
+\indexentry{Bool|hyperpage}{10}
+\indexentry{logical operations|hyperpage}{11}
+\indexentry{arithmetic operations|hyperpage}{11}
+\indexentry{Bit!extraction|hyperpage}{12}
+\indexentry{Bit!concatenation|hyperpage}{12}
+\indexentry{Operators|hyperpage}{12}
+\indexentry{Bit!reduction|hyperpage}{12}
+\indexentry{Bitfield!extraction|hyperpage}{12}
+\indexentry{Bitfield!concatenation|hyperpage}{12}
+\indexentry{Multiplexer|hyperpage}{12}
+\indexentry{Register|hyperpage}{14}
+\indexentry{Counting|hyperpage}{15}
+\indexentry{Structure|hyperpage}{15}
+\indexentry{Array|hyperpage}{15}
+\indexentry{Collection|hyperpage}{15}
+\indexentry{Vector|hyperpage}{15}
+\indexentry{Bundle|hyperpage}{15}
+\indexentry{sbt|hyperpage}{21}
+\indexentry{Source organization|hyperpage}{21}
+\indexentry{Testing|hyperpage}{24}
+\indexentry{ScalaTest|hyperpage}{28}
+\indexentry{Component|hyperpage}{35}
+\indexentry{Module|hyperpage}{35}
+\indexentry{Ports|hyperpage}{35}
+\indexentry{IO interface|hyperpage}{35}
+\indexentry{ALU|hyperpage}{39}
+\indexentry{Bulk connection|hyperpage}{40}
+\indexentry{Function components|hyperpage}{42}
+\indexentry{Combinational circuit|hyperpage}{43}
+\indexentry{when|hyperpage}{44}
+\indexentry{if/elseif/else|hyperpage}{44}
+\indexentry{otherwise|hyperpage}{44}
+\indexentry{elsewhen|hyperpage}{44}
+\indexentry{Decoder|hyperpage}{45}
+\indexentry{switch|hyperpage}{46}
+\indexentry{Encoder|hyperpage}{47}
+\indexentry{Register|hyperpage}{49}
+\indexentry{Flip-flop|hyperpage}{49}
+\indexentry{Clock|hyperpage}{49}
+\indexentry{Reset|hyperpage}{50}
+\indexentry{Initialization|hyperpage}{50}
+\indexentry{Timing diagram|hyperpage}{51}
+\indexentry{Waveform diagram|hyperpage}{51}
+\indexentry{Register!with enable|hyperpage}{52}
+\indexentry{Counter|hyperpage}{53}
+\indexentry{Timing generation|hyperpage}{55}
+\indexentry{Tick|hyperpage}{56}
+\indexentry{Logical clock|hyperpage}{57}
+\indexentry{Memory|hyperpage}{63}
+\indexentry{RAM|hyperpage}{63}
+\indexentry{SRAM|hyperpage}{63}
+\indexentry{Synchronous memory|hyperpage}{63}
+\indexentry{Data forwarding|hyperpage}{65}
+\indexentry{Asynchronous Input|hyperpage}{71}
+\indexentry{Metastability|hyperpage}{71}
+\indexentry{Debouncing|hyperpage}{72}
+\indexentry{Majority voting|hyperpage}{74}
+\indexentry{Edge detection|hyperpage}{75}
+\indexentry{Finite-state machine|hyperpage}{79}
+\indexentry{FSM|hyperpage}{79}
+\indexentry{Synchronous sequential circuit|hyperpage}{79}
+\indexentry{Finite-State Machine!Moore|hyperpage}{80}
+\indexentry{State diagram|hyperpage}{80}
+\indexentry{Finite-State Machine!Mealy|hyperpage}{84}
+\indexentry{Communicating state machines|hyperpage}{91}
+\indexentry{State machine with datapath|hyperpage}{96}
+\indexentry{FSMD|hyperpage}{96}
+\indexentry{Datapath|hyperpage}{97}
+\indexentry{Ready-valid interface|hyperpage}{101}
+\indexentry{Hardware generators|hyperpage}{105}
+\indexentry{Scala|hyperpage}{105}
+\indexentry{Parameters|hyperpage}{107}
+\indexentry{Type parameters|hyperpage}{107}
+\indexentry{Logic generation|hyperpage}{111}
+\indexentry{Logic table generation|hyperpage}{111}
+\indexentry{File reading|hyperpage}{111}
+\indexentry{Binary-coded decimal|hyperpage}{111}
+\indexentry{BCD|hyperpage}{111}
+\indexentry{Inheritance|hyperpage}{113}
+\indexentry{Object-oriented|hyperpage}{113}
+\indexentry{Functional programming|hyperpage}{118}
+\indexentry{FIFO|hyperpage}{121}
+\indexentry{FIFO buffer|hyperpage}{121}
+\indexentry{First-in, first-out buffer|hyperpage}{121}
+\indexentry{Bubble FIFO|hyperpage}{122}
+\indexentry{Serial port|hyperpage}{124}
+\indexentry{UART|hyperpage}{124}
+\indexentry{DecoupledIO|hyperpage}{132}
+\indexentry{Ready-valid interface|hyperpage}{132}
+\indexentry{Double buffer FIFO|hyperpage}{134}
+\indexentry{Circular buffer|hyperpage}{136}
+\indexentry{Circular buffer!read pointer|hyperpage}{136}
+\indexentry{Circular buffer!write pointer|hyperpage}{136}
+\indexentry{tuple|hyperpage}{137}
+\indexentry{Processor|hyperpage}{145}
+\indexentry{Leros|hyperpage}{145}
+\indexentry{ALU|hyperpage}{145}
+\indexentry{Processor!ALU|hyperpage}{145}
+\indexentry{Processor!instruction decode|hyperpage}{149}
+\indexentry{Assembler|hyperpage}{151}
+\indexentry{Chisel!Contribution|hyperpage}{155}
+\indexentry{Chisel!Examples|hyperpage}{163}
+\indexentry{Chisel 2|hyperpage}{165}

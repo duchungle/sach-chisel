@@ -1,0 +1,41 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/ParamFuncSpec200589325/ParamFunc.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~ParamFunc|ParamFunc>io_resB_b",
+    "sources":[
+      "~ParamFunc|ParamFunc>io_selB"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~ParamFunc|ParamFunc>io_resA",
+    "sources":[
+      "~ParamFunc|ParamFunc>io_selA"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~ParamFunc|ParamFunc>io_resB_d",
+    "sources":[
+      "~ParamFunc|ParamFunc>io_selB"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/ParamFuncSpec200589325"
+  }
+]

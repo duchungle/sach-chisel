@@ -1,0 +1,16 @@
+\frametitle{Summary}
+\begin{itemize}
+\item Divide a bigger problem into smaller ones
+\begin{itemize}
+\item Easier to design
+\item Easier to test
+\item Sometimes only feasible solution
+\end{itemize}
+\item Factoring state machines
+\begin{itemize}
+\item Separate state into multiple `orthogonal' state variables
+\item Each is simpler to handle (fewer states)
+\item ``Factors out'' repetitive sequences
+\item Hierarchical structure
+\end{itemize}
+\end{itemize}

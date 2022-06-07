@@ -1,0 +1,5 @@
+class Channel extends Bundle {
+  val data = Input(Bits(8.W))
+  val ready = Output(Bool())
+  val valid = Input(Bool())
+}

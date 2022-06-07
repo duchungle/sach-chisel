@@ -1,0 +1,5 @@
+  // Vòng lặp từ 0 đến 9  
+  //Tự động tạo giá trị vòng lặp i 
+  for (i <- 0 until 10) {
+    println(i)
+  }

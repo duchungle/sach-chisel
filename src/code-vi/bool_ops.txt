@@ -1,0 +1,4 @@
+  val and = a & b // phép toán and kiểu bitwise
+  val or = a | b  // phép toán or kiểu bitwise
+  val xor = a ^ b // phép toán xor kiểu bitwise
+  val not = ~a    // phép toán đảo kiểu bitwise

@@ -1,0 +1,40 @@
+import chisel3._
+import chisel3.util._
+
+class SimpleFsm extends Module {
+  val io = IO(new Bundle{
+    val badEvent = Input(Bool())
+    val clear = Input(Bool())
+    val ringBell = Output(Bool())
+  })
+
+  // Ba trạng thái
+  val green :: orange :: red :: Nil = Enum(3)
+
+  // Thanh ghi trạng thái
+  val stateReg = RegInit(green)
+
+  // Logic trạng thái kế tiếp
+  switch (stateReg) {
+    is (green) {
+      when(io.badEvent) {
+        stateReg := orange
+      }
+    }
+    is (orange) {
+      when(io.badEvent) {
+        stateReg := red
+      } .elsewhen(io.clear) {
+        stateReg := green
+      }
+    }
+    is (red) {
+      when (io.clear) {
+        stateReg := green
+      }
+    }
+  }
+
+  // Logic ngõ ra
+  io.ringBell := stateReg === red
+}

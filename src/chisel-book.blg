@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: chisel-book.aux
+The style file: plain.bst
+Database file #1: chisel.bib
+You've used 14 entries,
+            2118 wiz_defined-function locations,
+            585 strings with 7344 characters,
+and the built_in function-call counts, 6611 in all, are:
+= -- 609
+> -- 450
+< -- 9
++ -- 177
+- -- 159
+* -- 515
+:= -- 1095
+add.period$ -- 46
+call.type$ -- 14
+change.case$ -- 112
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 233
+empty$ -- 424
+format.name$ -- 159
+if$ -- 1372
+int.to.chr$ -- 0
+int.to.str$ -- 14
+missing$ -- 13
+newline$ -- 73
+num.names$ -- 34
+pop$ -- 139
+preamble$ -- 1
+purify$ -- 101
+quote$ -- 0
+skip$ -- 169
+stack$ -- 0
+substring$ -- 310
+swap$ -- 79
+text.length$ -- 9
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 52
+warning$ -- 0
+while$ -- 54
+width$ -- 16
+write$ -- 159

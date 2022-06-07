@@ -1,0 +1,36 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/ComponentSpec1349581374/CompFn.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~CompFn|CompFn>io_out2",
+    "sources":[
+      "~CompFn|CompFn>io_c",
+      "~CompFn|CompFn>io_d"
+    ]
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~CompFn|CompFn>io_out",
+    "sources":[
+      "~CompFn|CompFn>io_a",
+      "~CompFn|CompFn>io_b"
+    ]
+  },
+  {
+    "class":"logger.LogLevelAnnotation",
+    "globalLogLevel":{
+      
+    }
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/ComponentSpec1349581374"
+  }
+]

@@ -1,0 +1,3 @@
+object Types {
+  val nop :: add :: sub :: and :: or :: xor :: ld :: shr :: Nil = Enum(8)
+}

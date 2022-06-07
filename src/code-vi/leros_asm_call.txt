@@ -1,0 +1,11 @@
+  def getProgram(prog: String) = {
+    assemble(prog)
+  }
+  
+  //thu thập địa chỉ đích trong lần chuyển đầu tiên
+  val symbols = collection.mutable.Map[String, Int]()
+
+  def assemble(prog: String): Array[Int] = {
+    assemble(prog, false)
+    assemble(prog, true)
+  }

@@ -1,0 +1,68 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Logic for the expression {\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \add@extra@listi {sml}{\texttt {(a \& b) | c}}}. The wires can be a single bit or multiple bits. The Chisel expression, and the schematics are the same.}}{11}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces A basic 2:1 multiplexer.}}{13}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces A D flip-flop based register with a synchronous reset to 0.}}{15}{figure.2.3}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Source tree of a Chisel project (using {\relax \fontsize {9}{11}\selectfont \abovedisplayskip 8.5\p@ plus3\p@ minus4\p@ \abovedisplayshortskip \z@ plus2\p@ \belowdisplayshortskip 4\p@ plus2\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 4\p@ plus2\p@ minus2\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \add@extra@listi {sml}{\texttt {sbt}}})}}{22}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Tool flow of the Chisel ecosystem.}}{25}{figure.3.2}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces A design consisting of a hierarchy of components.}}{36}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces An arithmetic logic unit, or ALU for short.}}{39}{figure.4.2}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces A chain of multiplexers.}}{44}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces A 2-bit to 4-bit decoder.}}{46}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces A 4-bit to 2-bit encoder.}}{47}{figure.5.3}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces A D flip-flop based register.}}{49}{figure.6.1}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces A D flip-flop based register with a synchronous reset.}}{51}{figure.6.2}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces A waveform diagram for a register with a reset.}}{51}{figure.6.3}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces A D flip-flop based register with an enable signal.}}{52}{figure.6.4}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces A waveform diagram for a register with an enable signal.}}{52}{figure.6.5}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces An adder and a register result in counter.}}{53}{figure.6.6}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Counting events.}}{54}{figure.6.7}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces A waveform diagram for the generation of a slow frequency tick.}}{56}{figure.6.8}%
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Using the slow frequency tick.}}{57}{figure.6.9}%
+\contentsline {figure}{\numberline {6.10}{\ignorespaces A one-shot timer.}}{58}{figure.6.10}%
+\contentsline {figure}{\numberline {6.11}{\ignorespaces Pulse-width modulation.}}{59}{figure.6.11}%
+\contentsline {figure}{\numberline {6.12}{\ignorespaces A 4 stage shift register.}}{61}{figure.6.12}%
+\contentsline {figure}{\numberline {6.13}{\ignorespaces A 4-bit shift register with parallel output.}}{62}{figure.6.13}%
+\contentsline {figure}{\numberline {6.14}{\ignorespaces A 4-bit shift register with parallel load.}}{63}{figure.6.14}%
+\contentsline {figure}{\numberline {6.15}{\ignorespaces A synchronous memory.}}{64}{figure.6.15}%
+\contentsline {figure}{\numberline {6.16}{\ignorespaces A synchronous memory with forwarding for a defined read-during-write behavior.}}{66}{figure.6.16}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Input synchronizer.}}{72}{figure.7.1}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Debouncing an input signal.}}{73}{figure.7.2}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Majority voting on the sampled input signal.}}{74}{figure.7.3}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces A finite state machine (Moore type).}}{79}{figure.8.1}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces The state diagram of an alarm FSM.}}{80}{figure.8.2}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces A rising edge detector (Mealy type FSM).}}{84}{figure.8.3}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces A Mealy type finite state machine.}}{84}{figure.8.4}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces The state diagram of the rising edge detector as Mealy FSM.}}{85}{figure.8.5}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces The state diagram of the rising edge detector as Moore FSM.}}{87}{figure.8.6}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Mealy and a Moore FSM waveform for rising edge detection.}}{87}{figure.8.7}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces The light flasher split into a Master FSM and a Timer FSM.}}{92}{figure.9.1}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces The light flasher split into a Master FSM, a Timer FSM, and a Counter FSM.}}{94}{figure.9.2}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces A state machine with a datapath.}}{96}{figure.9.3}%
+\contentsline {figure}{\numberline {9.4}{\ignorespaces State diagram for the popcount FSM.}}{97}{figure.9.4}%
+\contentsline {figure}{\numberline {9.5}{\ignorespaces Datapath for the popcount circuit.}}{98}{figure.9.5}%
+\contentsline {figure}{\numberline {9.6}{\ignorespaces The ready-valid flow control.}}{101}{figure.9.6}%
+\contentsline {figure}{\numberline {9.7}{\ignorespaces Data transfer with a ready-valid interface, early ready}}{102}{figure.9.7}%
+\contentsline {figure}{\numberline {9.8}{\ignorespaces Data transfer with a ready-valid interface, late ready}}{102}{figure.9.8}%
+\contentsline {figure}{\numberline {9.9}{\ignorespaces Single cycle ready/valid and back-to-back transfers}}{103}{figure.9.9}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {11.1}{\ignorespaces A writer, a FIFO buffer, and a reader.}}{121}{figure.11.1}%
+\contentsline {figure}{\numberline {11.2}{\ignorespaces One byte transmitted by a UART.}}{124}{figure.11.2}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

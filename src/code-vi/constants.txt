@@ -1,0 +1,2 @@
+  0.U  // định nghĩa hằng số theo UInt của 0
+  -3.S // định nghĩa hằng số theo SInt của -3

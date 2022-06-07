@@ -1,0 +1,26 @@
+import chisel3.iotesters.PeekPokeTester
+import org.scalatest._
+
+class TickerTester[T <: Ticker](dut: T, n: Int) extends PeekPokeTester(dut: T) {
+
+  // -1 là khái niệm mà chúng ta chưa thấy tick đầu tiên
+  var count = -1
+  for (i <- 0 to n * 3) {
+    if (count > 0) {
+      expect(dut.io.tick, 0)
+    }
+    if (count == 0) {
+      expect(dut.io.tick, 1)
+    }
+    val t = peek(dut.io.tick)
+    // Trên tick, chúng ta reset mạch đếm của trình kiểm tra về N-1,
+    // nếu không, chúng ta giảm giá trị mạch đếm của trình kiểm tra
+    if (t == 1) {
+      count = n-1
+    } else {
+      count -= 1
+    }
+
+    step(1)
+  }
+}

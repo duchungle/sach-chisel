@@ -1,0 +1,164 @@
+\begin{theindex}
+
+  \item ALU, \hyperpage{39}, \hyperpage{145}
+  \item arithmetic operations, \hyperpage{11}
+  \item Array, \hyperpage{15}
+  \item Assembler, \hyperpage{151}
+  \item Asynchronous Input, \hyperpage{71}
+
+  \indexspace
+
+  \item BCD, \hyperpage{111}
+  \item Binary-coded decimal, \hyperpage{111}
+  \item Bit
+    \subitem concatenation, \hyperpage{12}
+    \subitem extraction, \hyperpage{12}
+    \subitem reduction, \hyperpage{12}
+  \item Bitfield
+    \subitem concatenation, \hyperpage{12}
+    \subitem extraction, \hyperpage{12}
+  \item Bool, \hyperpage{10}
+  \item Bubble FIFO, \hyperpage{122}
+  \item Bulk connection, \hyperpage{40}
+  \item Bundle, \hyperpage{15}
+
+  \indexspace
+
+  \item Chisel
+    \subitem Contribution, \hyperpage{155}
+    \subitem Examples, \hyperpage{6}, \hyperpage{163}
+  \item Chisel 2, \hyperpage{165}
+  \item Circular buffer, \hyperpage{136}
+    \subitem read pointer, \hyperpage{136}
+    \subitem write pointer, \hyperpage{136}
+  \item Clock, \hyperpage{49}
+  \item Collection, \hyperpage{15}
+  \item Combinational circuit, \hyperpage{43}
+  \item Communicating state machines, \hyperpage{91}
+  \item Component, \hyperpage{35}
+  \item Counter, \hyperpage{53}
+  \item Counting, \hyperpage{15}
+
+  \indexspace
+
+  \item Data forwarding, \hyperpage{65}
+  \item Datapath, \hyperpage{97}
+  \item Debouncing, \hyperpage{72}
+  \item Decoder, \hyperpage{45}
+  \item DecoupledIO, \hyperpage{132}
+  \item Double buffer FIFO, \hyperpage{134}
+
+  \indexspace
+
+  \item Edge detection, \hyperpage{75}
+  \item elsewhen, \hyperpage{44}
+  \item Encoder, \hyperpage{47}
+
+  \indexspace
+
+  \item FIFO, \hyperpage{121}
+  \item FIFO buffer, \hyperpage{121}
+  \item File reading, \hyperpage{111}
+  \item Finite-State Machine
+    \subitem Mealy, \hyperpage{84}
+    \subitem Moore, \hyperpage{80}
+  \item Finite-state machine, \hyperpage{79}
+  \item First-in, first-out buffer, \hyperpage{121}
+  \item Flip-flop, \hyperpage{49}
+  \item FSM, \hyperpage{79}
+  \item FSMD, \hyperpage{96}
+  \item Function components, \hyperpage{42}
+  \item Functional programming, \hyperpage{118}
+
+  \indexspace
+
+  \item Hardware generators, \hyperpage{105}
+
+  \indexspace
+
+  \item if/elseif/else, \hyperpage{44}
+  \item Inheritance, \hyperpage{113}
+  \item Initialization, \hyperpage{50}
+  \item Integer
+    \subitem constant, \hyperpage{10}
+    \subitem signed, \hyperpage{9}
+    \subitem unsigned, \hyperpage{9}
+    \subitem width, \hyperpage{9}
+  \item IO interface, \hyperpage{35}
+
+  \indexspace
+
+  \item Leros, \hyperpage{145}
+  \item Logic generation, \hyperpage{111}
+  \item Logic table generation, \hyperpage{111}
+  \item Logical clock, \hyperpage{57}
+  \item logical operations, \hyperpage{11}
+
+  \indexspace
+
+  \item Majority voting, \hyperpage{74}
+  \item Memory, \hyperpage{63}
+  \item Metastability, \hyperpage{71}
+  \item Module, \hyperpage{35}
+  \item Multiplexer, \hyperpage{12}
+
+  \indexspace
+
+  \item Object-oriented, \hyperpage{113}
+  \item Operators, \hyperpage{12}
+  \item otherwise, \hyperpage{44}
+
+  \indexspace
+
+  \item Parameters, \hyperpage{107}
+  \item Ports, \hyperpage{35}
+  \item Processor, \hyperpage{145}
+    \subitem ALU, \hyperpage{145}
+    \subitem instruction decode, \hyperpage{149}
+
+  \indexspace
+
+  \item RAM, \hyperpage{63}
+  \item Ready-valid interface, \hyperpage{101}, \hyperpage{132}
+  \item Register, \hyperpage{14}, \hyperpage{49}
+    \subitem with enable, \hyperpage{52}
+  \item Reset, \hyperpage{50}
+
+  \indexspace
+
+  \item sbt, \hyperpage{21}
+  \item Scala, \hyperpage{105}
+  \item ScalaTest, \hyperpage{28}
+  \item Serial port, \hyperpage{124}
+  \item Source organization, \hyperpage{21}
+  \item SRAM, \hyperpage{63}
+  \item State diagram, \hyperpage{80}
+  \item State machine with datapath, \hyperpage{96}
+  \item Structure, \hyperpage{15}
+  \item switch, \hyperpage{46}
+  \item Synchronous memory, \hyperpage{63}
+  \item Synchronous sequential circuit, \hyperpage{79}
+
+  \indexspace
+
+  \item Testing, \hyperpage{24}
+  \item Tick, \hyperpage{56}
+  \item Timing diagram, \hyperpage{51}
+  \item Timing generation, \hyperpage{55}
+  \item tuple, \hyperpage{137}
+  \item Type parameters, \hyperpage{107}
+
+  \indexspace
+
+  \item UART, \hyperpage{124}
+
+  \indexspace
+
+  \item Vector, \hyperpage{15}
+
+  \indexspace
+
+  \item Waveform diagram, \hyperpage{51}
+  \item when, \hyperpage{44}
+
+\end{theindex}

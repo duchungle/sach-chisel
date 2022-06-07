@@ -1,0 +1,120 @@
+\contentsline {chapter}{\nonumberline Foreword}{xi}{chapter*.6}%
+\contentsline {chapter}{\nonumberline Preface}{xiii}{chapter*.7}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Installing Chisel and FPGA Tools}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}macOS}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Linux/Ubuntu}{3}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Windows}{3}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.4}FPGA Tools}{3}{subsection.1.1.4}%
+\contentsline {section}{\numberline {1.2}Hello World}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Chisel Hello World}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}An IDE for Chisel}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Source Access and eBook Features}{5}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Further Reading}{6}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Exercise}{7}{section.1.7}%
+\contentsline {chapter}{\numberline {2}Basic Components}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Signal Types and Constants}{9}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Combinational Circuits}{11}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Multiplexer}{12}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Registers}{14}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Counting}{15}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.4}Structure with Bundle and Vec}{15}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Chisel Generates Hardware}{18}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Exercise}{18}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Build Process and Testing}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Building your Project with sbt}{21}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Source Organization}{21}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Running sbt}{23}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Tool Flow}{24}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Testing with Chisel}{24}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}PeekPokeTester}{24}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Using ScalaTest}{28}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Waveforms}{29}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}printf Debugging}{31}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Exercises}{32}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}A Minimal Project}{32}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}A Testing Exercise}{34}{subsection.3.3.2}%
+\contentsline {chapter}{\numberline {4}Components}{35}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Components in Chisel are Modules}{35}{section.4.1}%
+\contentsline {section}{\numberline {4.2}An Arithmetic Logic Unit}{39}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Bulk Connections}{40}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Lightweight Components with Functions}{42}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Combinational Building Blocks}{43}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Combinational Circuits}{43}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Decoder}{45}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Encoder}{47}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Exercise}{48}{section.5.4}%
+\contentsline {chapter}{\numberline {6}Sequential Building Blocks}{49}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Registers}{49}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Counters}{53}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Counting Up and Down}{54}{subsection.6.2.1}%
+\contentsline {subsection}{\numberline {6.2.2}Generating Timing with Counters}{55}{subsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.2.3}The Nerd Counter}{57}{subsection.6.2.3}%
+\contentsline {subsection}{\numberline {6.2.4}A Timer}{58}{subsection.6.2.4}%
+\contentsline {subsection}{\numberline {6.2.5}Pulse-Width Modulation}{59}{subsection.6.2.5}%
+\contentsline {section}{\numberline {6.3}Shift Registers}{61}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Shift Register with Parallel Output}{62}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Shift Register with Parallel Load}{63}{subsection.6.3.2}%
+\contentsline {section}{\numberline {6.4}Memory}{63}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Exercise}{68}{section.6.5}%
+\contentsline {chapter}{\numberline {7}Input Processing}{71}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Asynchronous Input}{71}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Debouncing}{72}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Filtering of the Input Signal}{74}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Combining the Input Processing with Functions}{75}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Exercise}{77}{section.7.5}%
+\contentsline {chapter}{\numberline {8}Finite-State Machines}{79}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Basic Finite-State Machine}{79}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Faster Output with a Mealy FSM}{83}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Moore versus Mealy}{85}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Exercise}{89}{section.8.4}%
+\contentsline {chapter}{\numberline {9}Communicating State Machines}{91}{chapter.9}%
+\contentsline {section}{\numberline {9.1}A Light Flasher Example}{91}{section.9.1}%
+\contentsline {section}{\numberline {9.2}State Machine with Datapath}{96}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Popcount Example}{96}{subsection.9.2.1}%
+\contentsline {section}{\numberline {9.3}Ready-Valid Interface}{101}{section.9.3}%
+\contentsline {chapter}{\numberline {10}Hardware Generators}{105}{chapter.10}%
+\contentsline {section}{\numberline {10.1}A Little Bit of Scala}{105}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Configure with Parameters}{107}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}Simple Parameters}{107}{subsection.10.2.1}%
+\contentsline {subsection}{\numberline {10.2.2}Functions with Type Parameters}{107}{subsection.10.2.2}%
+\contentsline {subsection}{\numberline {10.2.3}Modules with Type Parameters}{109}{subsection.10.2.3}%
+\contentsline {subsection}{\numberline {10.2.4}Parameterized Bundles}{110}{subsection.10.2.4}%
+\contentsline {section}{\numberline {10.3}Generate Combinational Logic}{111}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Use Inheritance}{113}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Hardware Generation with Functional Programming}{118}{section.10.5}%
+\contentsline {chapter}{\numberline {11}Example Designs}{121}{chapter.11}%
+\contentsline {section}{\numberline {11.1}FIFO Buffer}{121}{section.11.1}%
+\contentsline {section}{\numberline {11.2}A Serial Port}{124}{section.11.2}%
+\contentsline {section}{\numberline {11.3}FIFO Design Variations}{131}{section.11.3}%
+\contentsline {subsection}{\numberline {11.3.1}Parameterizing FIFOs}{131}{subsection.11.3.1}%
+\contentsline {subsection}{\numberline {11.3.2}Redesigning the Bubble FIFO}{132}{subsection.11.3.2}%
+\contentsline {subsection}{\numberline {11.3.3}Double Buffer FIFO}{134}{subsection.11.3.3}%
+\contentsline {subsection}{\numberline {11.3.4}FIFO with Register Memory}{136}{subsection.11.3.4}%
+\contentsline {subsection}{\numberline {11.3.5}FIFO with On-Chip Memory}{138}{subsection.11.3.5}%
+\contentsline {section}{\numberline {11.4}Exercises}{141}{section.11.4}%
+\contentsline {subsection}{\numberline {11.4.1}Explore the Bubble FIFO}{141}{subsection.11.4.1}%
+\contentsline {subsection}{\numberline {11.4.2}The UART}{142}{subsection.11.4.2}%
+\contentsline {subsection}{\numberline {11.4.3}FIFO Exploration}{143}{subsection.11.4.3}%
+\contentsline {chapter}{\numberline {12}Design of a Processor}{145}{chapter.12}%
+\contentsline {section}{\numberline {12.1}Start with an ALU}{145}{section.12.1}%
+\contentsline {section}{\numberline {12.2}Decoding Instructions}{149}{section.12.2}%
+\contentsline {section}{\numberline {12.3}Assembling Instructions}{151}{section.12.3}%
+\contentsline {section}{\numberline {12.4}Exercise}{153}{section.12.4}%
+\contentsline {chapter}{\numberline {13}Contributing to Chisel}{155}{chapter.13}%
+\contentsline {section}{\numberline {13.1}Publishing a Chisel Library}{155}{section.13.1}%
+\contentsline {subsection}{\numberline {13.1.1}Using a Library}{155}{subsection.13.1.1}%
+\contentsline {subsection}{\numberline {13.1.2}Prerequisite}{156}{subsection.13.1.2}%
+\contentsline {subsection}{\numberline {13.1.3}Library Setup}{157}{subsection.13.1.3}%
+\contentsline {subsection}{\numberline {13.1.4}Regular Publishing}{157}{subsection.13.1.4}%
+\contentsline {section}{\numberline {13.2}Contributing to Chisel}{158}{section.13.2}%
+\contentsline {subsection}{\numberline {13.2.1}Setup the Development Environment}{158}{subsection.13.2.1}%
+\contentsline {subsection}{\numberline {13.2.2}Testing}{159}{subsection.13.2.2}%
+\contentsline {subsection}{\numberline {13.2.3}Contribute with a Pull Request}{160}{subsection.13.2.3}%
+\contentsline {section}{\numberline {13.3}Exercise}{160}{section.13.3}%
+\contentsline {chapter}{\numberline {14}Summary}{161}{chapter.14}%
+\contentsline {chapter}{\numberline {A}Chisel Projects}{163}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Chisel 2}{165}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Acronyms}{169}{appendix.C}%
+\contentsline {chapter}{\nonumberline Bibliography}{171}{chapter*.12}%
+\contentsline {chapter}{\nonumberline Index}{173}{chapter*.13}%

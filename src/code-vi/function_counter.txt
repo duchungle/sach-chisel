@@ -1,0 +1,10 @@
+  // Hàm này trả về một mạch đếm
+  def genCounter(n: Int) = {
+    val cntReg = RegInit(0.U(8.W))
+    cntReg := Mux(cntReg === n.U, 0.U, cntReg + 1.U)
+    cntReg
+  }
+
+  // bây giờ chúng ta có thể dễ dàng tạo ra nhiều mạch đếm
+  val count10 = genCounter(10)
+  val count99 = genCounter(99)

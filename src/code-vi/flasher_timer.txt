@@ -1,0 +1,14 @@
+  val timerReg = RegInit(0.U)
+  timerDone := timerReg === 0.U
+
+  // FSM bộ định thời (mạch đếm xuống)
+  when(!timerDone) {
+    timerReg := timerReg - 1.U
+  }
+  when (timerLoad) {
+    when (timerSelect) {
+      timerReg := 5.U
+    } .otherwise {
+      timerReg := 3.U
+    }
+  }

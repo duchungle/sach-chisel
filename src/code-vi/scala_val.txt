@@ -1,0 +1,5 @@
+  // Giá trị là một hằng số
+  val zero = 0
+  // Không có thực hiện phép gán mới
+  // Phần sau sẽ không biên dịch
+  zero = 3
